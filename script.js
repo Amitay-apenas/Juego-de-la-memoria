@@ -2,7 +2,7 @@ const card = document.querySelectorAll('.cards');
 const contentElements = document.querySelectorAll(".content");
 const body_background = document.querySelector('body');
 const main_background = document.querySelector('main');
-const svgIndex = '<img class = "mathIcon"src="./img/mathmemory.svg" alt="mathmemory">';
+const svgIndex = '<img class = "mathIcon"src="./img/icon.svg" alt="icon">';
 const cardArrayOriginal = [
     { conta: 'Taza', resultado: 'Xícara' },
     { conta: 'Aderezo', resultado: 'Tempero' },
