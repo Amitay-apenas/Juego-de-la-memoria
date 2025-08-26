@@ -4,16 +4,16 @@ const body_background = document.querySelector('body');
 const main_background = document.querySelector('main');
 const svgIndex = '<img class = "mathIcon"src="./img/mathmemory.svg" alt="mathmemory">';
 const cardArrayOriginal = [
-    { conta: '0,60', resultado: '60%' },
-    { conta: '0,25', resultado: '25%' },
-    { conta: '0,90', resultado: '90%' },
-    { conta: '0,10', resultado: '10%' },
-    { conta: '0.85', resultado: '85%' },
-    { conta: '0,70', resultado: '70%' },
-    { conta: '0,50', resultado: '50%' },
-    { conta: '0,15', resultado: '15%' },
-    { conta: '0,45', resultado: '45%' },
-    { conta: '100%', resultado: '1.0' }
+    { conta: 'Taza', resultado: 'Xícara' },
+    { conta: 'Aderezo', resultado: 'Tempero' },
+    { conta: 'Cachorro', resultado: 'Filhote' },
+    { conta: 'Salada', resultado: 'Salgada' },
+    { conta: 'Polvo', resultado: 'Poeira' },
+    { conta: 'Rato', resultado: 'Momento' },
+    { conta: 'Rubio', resultado: 'Loiro' },
+    { conta: 'Taller', resultado: 'Oficina' },
+    { conta: 'Vaso', resultado: 'Copo' },
+    { conta: 'Pastel', resultado: 'Bolo' }
 ];
 
 let cardArray = [];
